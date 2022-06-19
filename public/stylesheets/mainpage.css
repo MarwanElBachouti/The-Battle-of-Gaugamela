@@ -1,0 +1,37 @@
+body {
+  background-image: url('/images/background/fundo2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  cursor: url("https://i.ibb.co/gyDhXf3/Vector-22.png"), auto;
+}
+html {cursor: url("https://i.ibb.co/gyDhXf3/Vector-22.png"), auto;}
+/* header {
+  padding: 11px;
+  text-align: center;
+}
+
+nav {  
+  display: flex;
+  flex-direction: column;
+  padding:10px;
+  background-color: #194518; 
+  float: left;
+}
+nav a { 
+  color: white; 
+  margin:5px;
+  padding:5px;
+  border: 1px solid white;
+}
+
+footer {
+  background-color: #194518;
+  padding: 10px;
+  text-align: center;
+  color: white;
+} */
