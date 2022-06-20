@@ -322,14 +322,14 @@ async function draw() {
             fill(color('white'))
             textSize(20);
             text('Username: '+user_info.username, windowWidth/2.6, windowHeight/15)
-            text('Player Actions : ' + user_info.player_actions, windowWidth/2.6, windowHeight/10)
+            text('Player Actions: ' + user_info.player_actions, windowWidth/2.6, windowHeight/10)
             image(iron_amount_img, windowWidth/2.2, windowHeight/6, iron_amount_img.width * 0.5, iron_amount_img.height * 0.5)
             image(food_amount_img, windowWidth/2.6, windowHeight/6.5 ,food_amount_img.width * 0.5, food_amount_img.height * 0.5)
             if (resources[0] != undefined) {
                 text(resources[2].rsc_amount, (windowWidth/2.1)+5,(windowHeight/4.5)-10)
                 text(resources[0].rsc_amount, (windowWidth/2.45)-10, (windowHeight/4.5)-5)
             }
-            text(' Last Die Roll :' + roll_attack_number, windowWidth/2.6, windowHeight/2.2)
+            text(' Last Die Roll: ' + roll_attack_number, windowWidth/2.6, windowHeight/2.2)
             
             
         }
